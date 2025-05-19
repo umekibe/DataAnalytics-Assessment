@@ -1,5 +1,5 @@
 # DataAnalytics-Assessment
-## Q1. High-Value Customers with Multiple Products Solution
+## Q1. High-Value Customers with Multiple Products 
 For this query, I needed to identify customers who have both savings plans and investment plans, and then sort them by their total deposits.
 
 ### My Approach
@@ -36,7 +36,7 @@ CONCAT(u.first_name, ' ', u.last_name) AS name
 This query identifies customers who have both regular savings plans (is_regular_savings = 1) and investment/fund plans (is_a_fund = 1), with the results sorted by total deposits in descending order.  
 
 
-## Q2. Transaction Frequency Analysis Solution
+## Q2. Transaction Frequency Analysis 
 This query analyzes customer transaction patterns and categorizes them based on their monthly transaction frequency.
 
 ### My Approach
