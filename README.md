@@ -33,7 +33,8 @@ CONCAT(u.first_name, ' ', u.last_name) AS name
 * This ensures that we'll always have a proper full name for each customer, even if the name field itself is null.
 * The concatenation joins the first name and last name with a space in between, creating a properly formatted full name.
 
-This query identifies customers who have both regular savings plans (is_regular_savings = 1) and investment/fund plans (is_a_fund = 1), with the results sorted by total deposits in descending order.
+This query identifies customers who have both regular savings plans (is_regular_savings = 1) and investment/fund plans (is_a_fund = 1), with the results sorted by total deposits in descending order.  
+
 
 ## Q2. Transaction Frequency Analysis Solution
 This query analyzes customer transaction patterns and categorizes them based on their monthly transaction frequency.
@@ -64,7 +65,8 @@ I created a multi-step analysis using Common Table Expressions (CTEs):
 * Rounding the average to 1 decimal place for readability
 
 
-**Sorting:** I ordered the results to ensure categories appear in the logical order: High → Medium → Low
+**Sorting:** I ordered the results to ensure categories appear in the logical order: High → Medium → Low  
+
 
 
 ## Q3. Account Inactivity Alert
@@ -100,7 +102,8 @@ I'm joined two tables:
 
 **Results Organization:** The results are ordered by inactivity period (descending), showing the longest-inactive accounts first.
 
-The query efficiently identifies dormant accounts in the last 365 days.
+The query efficiently identifies dormant accounts in the last 365 days.  
+
 
 ## Q4. Customer Lifetime Value (CLV) Estimation
 
